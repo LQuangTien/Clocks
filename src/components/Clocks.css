@@ -1,0 +1,17 @@
+.clockButton {
+  transition: all 0.35s;
+  opacity: 0;
+}
+.clock:hover {
+  transition: all 0.35s;
+  box-shadow: 0 0 10px 4px #eee;
+  transform: scale(1.05);
+}
+.clock:hover .clockContent {
+  transition: all 0.25s;
+  opacity: 0;
+}
+.clock:hover .clockButton {
+  transform: translateY(-2.5rem);
+  opacity: 1;
+}
